@@ -7,7 +7,7 @@ while (input !== 'iseiti' && input !== 'q') {
             console.log(`${i}: ${todos[i]}`);
         }
         console.log('*****************')
-    } else if (input === 'add') {
+    } else if (input === 'prideti') {
         const newTodo = prompt('Ka naujo nori prideti?');
         todos.push(newTodo);
         console.log(`${newTodo} prideta i sarasa!`)
@@ -22,4 +22,4 @@ while (input !== 'iseiti' && input !== 'q') {
     }
     input = prompt('Ka noretum padaryti?')
 }
-console.log('iseiti is APPso!')
+console.log('Appsas uzdarytas')
